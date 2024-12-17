@@ -5,18 +5,18 @@ export default function Menu() {
   const [menuItems, setMenuItems] = useState();
 
   useEffect(() => {
-    fetch('/menu.json')
+    fetch('/menuen.json')
       .then((res) => res.json())
       .then((data) => {
         setMenuItems(data.menuItems);
       });
   }, []);
 
-  if (!menuItems) return <p>ロード中...</p>;
+  if (!menuItems) return <p>Loading...</p>;
 
   return (
     <Container className="my-5">
-      <h1>メニュー</h1>
+      <h1>Menu</h1>
       {Object.entries(menuItems).map(([category, items]) => (
         <div key={category}>
           <h2 className="mt-4"><strong>{category}</strong></h2>

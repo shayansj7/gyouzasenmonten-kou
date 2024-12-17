@@ -1,0 +1,302 @@
+{
+    "menuItems": {
+      "Meal": [
+        {
+          "name": "Ostukare Set",
+          "price": "￥1,100",
+          "description": "gyoza (6pcs), kobachi, draught beer or sour",
+          "img": "/images/menu/otsukare-set.jpg"
+        },
+        {
+          "name": "Gyoza Meal",
+          "price": "￥858(6pcs), ￥1,298,(12pcs), ￥1,716(18pcs)",
+          "description": "gyoza, rice, soup, kobachi, mini salad",
+          "img": "/images/menu/gyoza-set.jpg"
+        }
+      ],
+      "Lunch (11-14)":[
+        {
+          "name": "Otameshi Lunch",
+          "price": "￥858",
+          "description": "gyoza(6pcs)、rice、soup、kobachi、mini salad",
+          "img": "/images/menu/otameshi-lunch.jpg"
+        },
+        {
+          "name": "おすすめランチ",
+          "price": "￥1,078",
+          "description": "餃子 9個、小鉢 2種、ご飯、スープ、サラダ",
+          "img": "/images/menu/osusume-lunch.jpg"
+        },
+        {
+          "name": "季節ランチ",
+          "price": "￥1,100",
+          "description": "チゲスープ餃子3個 or 豚骨スープ餃子 3個、ご飯、漬物、サラダ",
+          "img": "/images/menu/kisetsu-lunch.jpg"
+        },
+        {
+          "name": "餃kouランチ",
+          "price": "￥1,518",
+          "description": "餃子4個、はたけの里芋餃子4個、プレミアム餃子4個、ご飯、スープ、サラダ",
+          "img": "/images/menu/kou-lunch.jpg"
+        }
+      ],
+      "単品餃子": [
+        {
+          "name": "プレミアム餃子 4個 （ニンニク あり・なし）",
+          "price": "￥550",
+          "description": "シャキシャキれんこん入り。手切り、手包みだからできる食べ応え抜群餃子。",
+          "img": "/images/menu/premium-gyoza.jpg"
+        },
+        {
+          "name": "レンコン餃子 （ニンニク あり・なし）",
+          "price": "6個 ￥495、12個 ￥968、18個 ￥1,408",
+          "description": "レンコンがシャキシャキで歯ごたえ抜群！種にも味があるので最初は何もつけず素材の味を楽しんでみて下さい。",
+          "img": "/images/menu/renkon-gyoza.jpg"
+        },
+        {
+          "name": "はたけの里芋餃子（6個）",
+          "price": "￥462",
+          "description": "所沢産の里芋がたっぷり。皮には小松菜が練り込まれてます。何もつけずにお召し上がりいただけます。",
+          "img": "/images/menu/hatakenosatoimo-gyoza.jpg"
+        }
+      ],
+      "一品・ご飯": [
+        {
+          "name": "ヘルシー大葉・大根 (2個ずつ)",
+          "price": "￥550",
+          "description": "鶏肉やれんこん入り、さっぱり大葉・大根で包んだヘルシーな1品。ポン酢がおすすめ。",
+          "img": "/images/menu/healthy-oba-daikon.jpg"
+        },
+        {
+          "name": "レンコンのはさみ焼き",
+          "price": "￥550",
+          "description": "生姜が効いた豚ひき肉と分厚く切ったレンコンの食感がいいアクセント！歯ごたえ最高の1品。お好みで柚子胡椒つけてお召し上がりください。",
+          "img": "/images/menu/renkon-no-hasamiyaki.jpg"
+        },
+        {
+          "name": "餃のまかない丼",
+          "price": "￥550",
+          "description": "スタッフ一押し！そぼろご飯。",
+          "img": "/images/menu/kou-no-makanai-don.jpg"
+        },
+        {
+          "name": "やみつき丼（スープ付き）",
+          "price": "￥550",
+          "description": "にんにく醤油につけた大葉と卵黄がマッチした1品です。",
+          "img": "/images/menu/yamitsuki-don.jpg"
+        },
+        {
+          "name": "あごだし塩おにぎり（2個）",
+          "price": "￥451",
+          "description": null,
+          "img": "/images/menu/agodashi-onigiri.jpg"
+        },
+        {
+          "name": "白米のご飯 （スープ付き）",
+          "price": "普通 ￥275、大盛り ￥385",
+          "description": null,
+          "img": null
+        },
+        {
+          "name": "所沢の里芋コロッケ",
+          "price": "￥638",
+          "description": null,
+          "img": "/images/menu/satoimo-korokke.jpg"
+        },
+        {
+          "name": "Kouの本気シュウマイ",
+          "price": "￥781",
+          "description": "プレーン・大葉",
+          "img": "/images/menu/kou-honkino-shumai.jpg"
+        },
+        {
+          "name": "ピリ辛きんぴら",
+          "price": "￥462",
+          "description": null,
+          "img": "/images/menu/pirikara-kinpira.jpg"
+        },
+        {
+          "name": "パリッと春巻き",
+          "price": "￥741",
+          "description": null,
+          "img": "/images/menu/paritto-harumaki.jpg"
+        },
+        {
+          "name": "きゅうりの一本漬け",
+          "price": "￥330",
+          "description": null,
+          "img": "/images/menu/kyuri-no-ipponzuke.jpg"
+        },
+        {
+          "name": "ハーフラーメン",
+          "price": "￥550",
+          "description": null,
+          "img": "/images/menu/half-ramen.jpg"
+        },
+        {
+          "name": "あご出汁茶漬け",
+          "price": "￥550",
+          "description": null,
+          "img": "/images/menu/agodashi-chazuke.jpg"
+        },
+        {
+          "name": "豚骨スープ餃子",
+          "price": "￥583",
+          "description": "チゲスープもあります。",
+          "img": "/images/menu/tonkotsu-soup-gyoza.jpg"
+        },
+        {
+          "name": "水餃子",
+          "price": "￥528",
+          "description": null,
+          "img": "/images/menu/sui-gyoza.jpg"
+        },
+        {
+          "name": "ネギザーサイ",
+          "price": "￥380",
+          "description": null,
+          "img": "/images/menu/negi-zasai.jpg"
+        },
+        {
+          "name": "チョレギサラダ",
+          "price": "￥638",
+          "description": null,
+          "img": "/images/menu/choregi-salad.jpg"
+        },
+        {
+          "name": "キムチきゅうり",
+          "price": "￥385",
+          "description": null,
+          "img": "/images/menu/kimchi-kyuri.jpg"
+        },
+        {
+          "name": "ナスの煮びたし",
+          "price": "￥550",
+          "description": null,
+          "img": "/images/menu/nasu-no-nibitashi.jpg"
+        },
+        {
+          "name": "ウィンナー （8匹）",
+          "price": "￥473",
+          "description": null,
+          "img": "/images/menu/sausages.jpg"
+        },
+        {
+          "name": "レンコンとオクラの唐揚げ",
+          "price": "￥583",
+          "description": null,
+          "img": "/images/menu/renkon-okura-karaage.jpg"
+        },
+        {
+          "name": "磯辺揚げ （じゃがいも・ちくわ）",
+          "price": "￥583",
+          "description": null,
+          "img": "/images/menu/isobeage.jpg"
+        }
+      ],
+      "ドリンク": {
+        "ビール": [
+          {
+            "name": "生ビール（中）",
+            "price": "￥605",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "生ビール（小）",
+            "price": "￥440",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "瓶ビール（黒ラベル、ラガー、一番搾り）",
+            "price": "￥600",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "ノンアルコールビール（グリーンズフリー）",
+            "price": "￥440",
+            "description": null,
+            "img": null
+          }
+        ],
+        "ウィスキー": [
+          {
+            "name": "ハイボール",
+            "price": "￥630",
+            "description": null,
+            "img": null
+          }
+        ],
+        "サワー": [
+          {
+            "name": "レモンサワー",
+            "price": "￥528",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "グレープフルーツサワー",
+            "price": "￥528",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "シークワーサーサワー",
+            "price": "￥528",
+            "description": null,
+            "img": null
+          }
+        ],
+        "チューハイ": [
+          {
+            "name": "ウーロンハイ",
+            "price": "￥440",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "茶葉まるごとハイ",
+            "price": "￥528",
+            "description": null,
+            "img": null
+          }
+        ],
+        "日本酒": [
+          {
+            "name": "月替わり冷酒",
+            "price": "￥1,760",
+            "description": null,
+            "img": null
+          }
+        ],
+        "ソフトドリンク": [
+          {
+            "name": "ウーロン茶",
+            "price": "￥275",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "緑茶",
+            "price": "￥275",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "コーラ",
+            "price": "￥330",
+            "description": null,
+            "img": null
+          },
+          {
+            "name": "オレンジ",
+            "price": "￥330",
+            "description": null,
+            "img": null
+          }
+        ]
+      }
+    }
+  }

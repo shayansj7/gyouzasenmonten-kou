@@ -1,17 +1,19 @@
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import Link from 'next/link';
+import Link from 'next/link'; 
 import Image from 'next/image';
 import { useState } from 'react';
-import { useScroll, useMotionValueEvent, color } from 'framer-motion';
+import { useRouter } from 'next/router'; 
+import { useScroll, useMotionValueEvent } from 'framer-motion';
 import { FaInstagram } from 'react-icons/fa';
-
 
 export default function Layout({ children }) {
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
-
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const router = useRouter();
+  const isEnglish = router.pathname.startsWith('/en'); 
+  
   const navLinkClicked = () => {
     setIsExpanded(false);
   };
@@ -20,13 +22,11 @@ export default function Layout({ children }) {
     const previous = scrollY.getPrevious();
     if (latest > previous && latest > 100) {
       setHidden(true);
-      console.log(hidden, scrollY);
     }
     else {
       setHidden(false);
     }
-  })
-
+  });
 
   return (
     <>
@@ -36,7 +36,7 @@ export default function Layout({ children }) {
       >
         <Container>
           <div>
-            <Navbar.Brand as={Link} href="/">
+            <Navbar.Brand as={Link} href={isEnglish ? '/en' : '/'}>
               <Image
                 src={'/images/Logo.png'}
                 width={120}
@@ -44,32 +44,37 @@ export default function Layout({ children }) {
               />
             </Navbar.Brand>
           </div>
+
           <div className="d-flex align-items-center gap-3" id="btn-link">
             {!isExpanded && (
-              <a className="language" href="https://gyouzakou.stores.jp/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
-                <Button variant="light" className='d-lg-none'>English</Button>
-              </a>
+              <Link
+                href={isEnglish ? '/' : '/en'} // Toggle between Japanese and English
+                passHref
+              >
+                <Button variant="light" className='d-lg-none'>{isEnglish ? '日本語' : 'English'}</Button>
+              </Link>
             )}
           </div>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <div className='nav-menu'>
               <div className="d-flex align-items-center gap-3" id='btn-link'>
-                <a href="https://gyouzakou.stores.jp/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
-                  <Button variant="danger">お取り寄せ</Button>
-                </a>
-                <a className="language" href="https://gyouzakou.stores.jp/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
-                  <Button variant="light">English</Button>
-                </a>
-                <a href="https://www.instagram.com/gyouza_kou0501/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
+                <Link href={isEnglish ? '/en/order' : '/order'} passHref>
+                  <Button variant="danger">{isEnglish ? 'Order Online' : 'お取り寄せ'}</Button>
+                </Link>
+                <Link href={isEnglish ? '/' : '/en'} passHref>
+                  <Button variant="light">{isEnglish ? '日本語' : 'English'}</Button>
+                </Link>
+                <Link href="https://www.instagram.com/gyouza_kou0501/" passHref>
                   <FaInstagram style={{ color: 'white', fontSize: '36px' }} />
-                </a>
+                </Link>
               </div>
               <Nav className="me-auto">
-                <Nav.Link as={Link} href="/" onClick={navLinkClicked}>ホーム</Nav.Link>
-                <Nav.Link as={Link} href="/menu" onClick={navLinkClicked}>メニュー</Nav.Link>
-                <Nav.Link as={Link} href="/news" onClick={navLinkClicked}>活動内容</Nav.Link>
-                <Nav.Link as={Link} href="/location" onClick={navLinkClicked}>ロケーション & 営業時間</Nav.Link>
+                <Nav.Link as={Link} href={isEnglish ? '/en' : '/'} onClick={navLinkClicked}>{isEnglish ? 'Home' : 'ホーム'}</Nav.Link>
+                <Nav.Link as={Link} href={isEnglish ? '/en/menu' : '/menu'} onClick={navLinkClicked}>{isEnglish ? 'Menu' : 'メニュー'}</Nav.Link>
+                <Nav.Link as={Link} href={isEnglish ? '/en/news' : '/news'} onClick={navLinkClicked}>{isEnglish ? 'Our Activities' : '活動内容'}</Nav.Link>
+                <Nav.Link as={Link} href={isEnglish ? '/en/location' : '/location'} onClick={navLinkClicked}>{isEnglish ? 'Location & Hours' : 'ロケーション & 営業時間'}</Nav.Link>
               </Nav>
             </div>
           </Navbar.Collapse>
