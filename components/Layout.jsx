@@ -32,7 +32,7 @@ export default function Layout({ children }) {
     <>
       <Navbar expand="lg" sticky="top"
         className={`custom-navbar ${hidden ? "hidden" : ""}`}
-        expanded={isExpanded} on onToggle={(expanded) => setIsExpanded(expanded)}
+        expanded={isExpanded} onToggle={(expanded) => setIsExpanded(expanded)}
       >
         <Container>
           <div>
@@ -44,12 +44,22 @@ export default function Layout({ children }) {
               />
             </Navbar.Brand>
           </div>
+          <div className="d-flex align-items-center gap-3" id="btn-link">
+            {!isExpanded && (
+              <a className="language" href="https://gyouzakou.stores.jp/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
+                <Button variant="light" className='d-lg-none'>English</Button>
+              </a>
+            )}
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <div className='nav-menu'>
               <div className="d-flex align-items-center gap-3" id='btn-link'>
                 <a href="https://gyouzakou.stores.jp/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
                   <Button variant="danger">お取り寄せ</Button>
+                </a>
+                <a className="language" href="https://gyouzakou.stores.jp/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
+                  <Button variant="light">English</Button>
                 </a>
                 <a href="https://www.instagram.com/gyouza_kou0501/" target="_blank" rel="noopener noreferrer" onClick={navLinkClicked}>
                   <FaInstagram style={{ color: 'white', fontSize: '36px' }} />

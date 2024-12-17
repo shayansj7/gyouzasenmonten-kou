@@ -71,6 +71,14 @@ main {
   font: bolder;
 }
 
+.custom-navbar .navbar-toggler {
+  border-color: transparent; /* Remove the border */
+}
+
+.custom-navbar .navbar-toggler-icon {
+ background-color: #edecec;
+}
+
 /* footer */
 footer {
   background-color: #212529; /* Dark background */
