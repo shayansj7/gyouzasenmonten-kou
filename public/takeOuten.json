@@ -1,0 +1,96 @@
+{
+    "takeOutItems": {
+      "Fried Gyoza": [
+        {
+            "name": "Renkon Gyoza (with or without garlic)",
+            "price": "￥495(6pcs), ￥968(12pcs), ￥1,408(18pcs)",
+            "description": "Fresh lotus roots in the gyoza add a satisfying crunch. Gyoza have a delicious flavor on their own, so please try them without any sauce first.",
+            "img": "/images/menu/renkon-gyoza.jpg"
+        },
+        {
+            "name": "Hatake no Satoimo Gyoza(6pcs)",
+            "price": "￥462",
+            "description": "Packed with plenty of taro from Tokorozawa. The dough is infused with komatsuna greens. Enjoy it as is, without any additional seasoning.",
+            "img": "/images/menu/hatakenosatoimo-gyoza.jpg"
+        },
+        {
+            "name": "Premium Gyoza 4pcs (with or without garlic)",
+            "price": "￥550",
+            "description": "Handmade gyoza. Fresh lotus roots are in them.",
+            "img": "/images/menu/premium-gyoza.jpg"
+        }
+      ],
+      "Frozen Gyoza":[
+        {
+          "name": "Renkon Gyoza (with or without garlic)",
+          "price": "￥864(12pcs), ￥3,456(50pcs), ￥6,696(100pcs)",
+          "description": "Fresh lotus roots in the gyoza add a satisfying crunch. Gyoza have a delicious flavor on their own, so please try them without any sauce first.",
+          "img": "/images/menu/renkon-gyoza.jpg"
+        },
+        {
+            "name": "Hatake no Satoimo Gyoza(20pcs)",
+            "price": "￥1,300",
+            "description": "Packed with plenty of taro from Tokorozawa. The dough is infused with komatsuna greens. Enjoy it as is, without any additional seasoning.",
+            "img": "/images/menu/hatakenosatoimo-gyoza.jpg"
+        },
+        {
+            "name": "Premium Gyoza 12pcs (with or without garlic)",
+            "price": "￥1,300",
+            "description": "Handmade gyoza. Fresh lotus roots are in them.",
+            "img": "/images/menu/premium-gyoza.jpg"
+        }
+      ],
+      "Frozen Sides (All ￥550)": [
+        {
+            "name": "Renkon no Hasami Yaki",
+            "price": null,
+            "description": "Ground pork infused with ginger and thickly sliced lotus root create a delightful texture! A dish with incredible crunch. Enjoy with yuzu pepper if you like.",
+            "img": "/images/menu/renkon-no-hasamiyaki.jpg"
+        },
+        {
+            "name": "Healthy Oba (6pcs)",
+            "price": null,
+            "description": "A healthy dish with chicken and lotus root, wrapped in refreshing shiso leaves. Best enjoyed with ponzu sauce.",
+            "img": null
+        },
+        {
+            "name": "Healthy Daikon (6pcs)",
+            "price": null,
+            "description": "A healthy dish with chicken and lotus root, wrapped in refreshing daikon. Best enjoyed with ponzu sauce.",
+            "img": null
+        },
+        {
+            "name": "Satoimo Korokke",
+            "price": null,
+            "description": null,
+            "img": "/images/menu/satoimo-korokke.jpg"
+        },
+        {
+            "name": "Shumai (6pcs)",
+            "price": null,
+            "description": null,
+            "img": null
+        },
+        {
+            "name": "Harumaki (5pcs)",
+            "price": null,
+            "description": null,
+            "img": "/images/menu/paritto-harumaki.jpg"
+        },
+        {
+            "name": "Oba Iri Shumai (5pcs)",
+            "price": null,
+            "description": "Shumai with shiso leaves",
+            "img": null
+        }
+      ],
+      "Limited dates Offer: Raw Gyoza": [
+        {
+          "name": "Premium Gyoza (6pcs)",
+          "price": "￥648",
+          "description": "The sale dates are announced 1–2 times a month on Instagram!",
+          "img": null
+        }
+      ] 
+    }
+  }

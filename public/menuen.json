@@ -22,276 +22,276 @@
           "img": "/images/menu/otameshi-lunch.jpg"
         },
         {
-          "name": "おすすめランチ",
+          "name": "Osusume Lunch",
           "price": "￥1,078",
-          "description": "餃子 9個、小鉢 2種、ご飯、スープ、サラダ",
+          "description": "gyoza(9pcs), kobachi(2 bowls), rice, soup, salad",
           "img": "/images/menu/osusume-lunch.jpg"
         },
         {
-          "name": "季節ランチ",
+          "name": "Kisetsu Lunch",
           "price": "￥1,100",
-          "description": "チゲスープ餃子3個 or 豚骨スープ餃子 3個、ご飯、漬物、サラダ",
+          "description": "chige soup gyoza(3pcs) or pork bone broth soup gyoza(3pcs), rice, Japanese pickles, salad",
           "img": "/images/menu/kisetsu-lunch.jpg"
         },
         {
-          "name": "餃kouランチ",
+          "name": "Kou Lunch",
           "price": "￥1,518",
-          "description": "餃子4個、はたけの里芋餃子4個、プレミアム餃子4個、ご飯、スープ、サラダ",
+          "description": "gyoza(4pcs), taro gyoza(4pcs), premium gyoza(4pcs), rice, soup, salad",
           "img": "/images/menu/kou-lunch.jpg"
         }
       ],
-      "単品餃子": [
+      "Gyoza": [
         {
-          "name": "プレミアム餃子 4個 （ニンニク あり・なし）",
+          "name": "Premium Gyoza 4pcs (with or without garlic)",
           "price": "￥550",
-          "description": "シャキシャキれんこん入り。手切り、手包みだからできる食べ応え抜群餃子。",
+          "description": "Handmade gyoza. Fresh lotus roots are in them.",
           "img": "/images/menu/premium-gyoza.jpg"
         },
         {
-          "name": "レンコン餃子 （ニンニク あり・なし）",
-          "price": "6個 ￥495、12個 ￥968、18個 ￥1,408",
-          "description": "レンコンがシャキシャキで歯ごたえ抜群！種にも味があるので最初は何もつけず素材の味を楽しんでみて下さい。",
+          "name": "Renkon Gyoza (with or without garlic)",
+          "price": "￥495(6pcs), ￥968(12pcs), ￥1,408(18pcs)",
+          "description": "Fresh lotus roots in the gyoza add a satisfying crunch. Gyoza have a delicious flavor on their own, so please try them without any sauce first.",
           "img": "/images/menu/renkon-gyoza.jpg"
         },
         {
-          "name": "はたけの里芋餃子（6個）",
+          "name": "Hatake no Satoimo Gyoza(6pcs)",
           "price": "￥462",
-          "description": "所沢産の里芋がたっぷり。皮には小松菜が練り込まれてます。何もつけずにお召し上がりいただけます。",
+          "description": "Packed with plenty of taro from Tokorozawa. The dough is infused with komatsuna greens. Enjoy it as is, without any additional seasoning.",
           "img": "/images/menu/hatakenosatoimo-gyoza.jpg"
         }
       ],
-      "一品・ご飯": [
+      "Single Items/Rice": [
         {
-          "name": "ヘルシー大葉・大根 (2個ずつ)",
+          "name": "Healthy Oba・Daikon(2pcs each)",
           "price": "￥550",
-          "description": "鶏肉やれんこん入り、さっぱり大葉・大根で包んだヘルシーな1品。ポン酢がおすすめ。",
+          "description": "A healthy dish with chicken and lotus root, wrapped in refreshing shiso leaves and daikon. Best enjoyed with ponzu sauce.",
           "img": "/images/menu/healthy-oba-daikon.jpg"
         },
         {
-          "name": "レンコンのはさみ焼き",
+          "name": "Renkon no Hasami Yaki",
           "price": "￥550",
-          "description": "生姜が効いた豚ひき肉と分厚く切ったレンコンの食感がいいアクセント！歯ごたえ最高の1品。お好みで柚子胡椒つけてお召し上がりください。",
+          "description": "Ground pork infused with ginger and thickly sliced lotus root create a delightful texture! A dish with incredible crunch. Enjoy with yuzu pepper if you like.",
           "img": "/images/menu/renkon-no-hasamiyaki.jpg"
         },
         {
-          "name": "餃のまかない丼",
+          "name": "Kou no Makanai Don",
           "price": "￥550",
-          "description": "スタッフ一押し！そぼろご飯。",
+          "description": "Highly recommended by our staff! Soboro rice.",
           "img": "/images/menu/kou-no-makanai-don.jpg"
         },
         {
-          "name": "やみつき丼（スープ付き）",
+          "name": "Yamitsuki Don with Soup",
           "price": "￥550",
-          "description": "にんにく醤油につけた大葉と卵黄がマッチした1品です。",
+          "description": "A dish where garlic soy sauce-marinated shiso leaves perfectly complement the egg yolk.",
           "img": "/images/menu/yamitsuki-don.jpg"
         },
         {
-          "name": "あごだし塩おにぎり（2個）",
+          "name": "Agodashi Onigiri(2pcs)",
           "price": "￥451",
           "description": null,
           "img": "/images/menu/agodashi-onigiri.jpg"
         },
         {
-          "name": "白米のご飯 （スープ付き）",
-          "price": "普通 ￥275、大盛り ￥385",
+          "name": "Rice with Soup",
+          "price": "Regular ￥275, Large ￥385",
           "description": null,
           "img": null
         },
         {
-          "name": "所沢の里芋コロッケ",
+          "name": "Tokorozawa no Korokke",
           "price": "￥638",
           "description": null,
           "img": "/images/menu/satoimo-korokke.jpg"
         },
         {
-          "name": "Kouの本気シュウマイ",
+          "name": "Kou no Honki no Shumai",
           "price": "￥781",
-          "description": "プレーン・大葉",
+          "description": "Plain and Oba.",
           "img": "/images/menu/kou-honkino-shumai.jpg"
         },
         {
-          "name": "ピリ辛きんぴら",
+          "name": "Piri Kara Kinpira",
           "price": "￥462",
           "description": null,
           "img": "/images/menu/pirikara-kinpira.jpg"
         },
         {
-          "name": "パリッと春巻き",
+          "name": "Paritto Harumaki",
           "price": "￥741",
           "description": null,
           "img": "/images/menu/paritto-harumaki.jpg"
         },
         {
-          "name": "きゅうりの一本漬け",
+          "name": "Kyuri no Ippon Zuke",
           "price": "￥330",
-          "description": null,
+          "description": "A Pickle.",
           "img": "/images/menu/kyuri-no-ipponzuke.jpg"
         },
         {
-          "name": "ハーフラーメン",
+          "name": "Half Ramen",
           "price": "￥550",
           "description": null,
           "img": "/images/menu/half-ramen.jpg"
         },
         {
-          "name": "あご出汁茶漬け",
+          "name": "Ago Dashi Chazuke",
           "price": "￥550",
           "description": null,
           "img": "/images/menu/agodashi-chazuke.jpg"
         },
         {
-          "name": "豚骨スープ餃子",
+          "name": "Tonkotsu Soup Gyoza",
           "price": "￥583",
-          "description": "チゲスープもあります。",
+          "description": "We also have a chige broth.",
           "img": "/images/menu/tonkotsu-soup-gyoza.jpg"
         },
         {
-          "name": "水餃子",
+          "name": "Sui Gyoza",
           "price": "￥528",
           "description": null,
           "img": "/images/menu/sui-gyoza.jpg"
         },
         {
-          "name": "ネギザーサイ",
+          "name": "Negi Za Sai",
           "price": "￥380",
           "description": null,
           "img": "/images/menu/negi-zasai.jpg"
         },
         {
-          "name": "チョレギサラダ",
+          "name": "Choregi Salad",
           "price": "￥638",
           "description": null,
           "img": "/images/menu/choregi-salad.jpg"
         },
         {
-          "name": "キムチきゅうり",
+          "name": "Kimchi Kyuri",
           "price": "￥385",
-          "description": null,
+          "description": "Cucumber's kimchi.",
           "img": "/images/menu/kimchi-kyuri.jpg"
         },
         {
-          "name": "ナスの煮びたし",
+          "name": "Nasu no Nibitashi",
           "price": "￥550",
-          "description": null,
+          "description": "Eggplants.",
           "img": "/images/menu/nasu-no-nibitashi.jpg"
         },
         {
-          "name": "ウィンナー （8匹）",
+          "name": "Uinna (8pcs)",
           "price": "￥473",
-          "description": null,
+          "description": "Octopus shaped sausages.",
           "img": "/images/menu/sausages.jpg"
         },
         {
-          "name": "レンコンとオクラの唐揚げ",
+          "name": "Renkon to Okura no Karaage",
           "price": "￥583",
           "description": null,
           "img": "/images/menu/renkon-okura-karaage.jpg"
         },
         {
-          "name": "磯辺揚げ （じゃがいも・ちくわ）",
+          "name": "Iso Age (Potatoes and Chikuwa)",
           "price": "￥583",
           "description": null,
           "img": "/images/menu/isobeage.jpg"
         }
       ],
-      "ドリンク": {
-        "ビール": [
+      "Drink": {
+        "Beer": [
           {
-            "name": "生ビール（中）",
+            "name": "Nama Bi-ru Chu",
             "price": "￥605",
-            "description": null,
+            "description": "Draft beer midium size.",
             "img": null
           },
           {
-            "name": "生ビール（小）",
+            "name": "Nama Bi-ru Shou",
             "price": "￥440",
-            "description": null,
+            "description": "Draft beer Small size.",
             "img": null
           },
           {
-            "name": "瓶ビール（黒ラベル、ラガー、一番搾り）",
+            "name": "Bin Bi-ru (Kuro lable, Lager, Ichiban Shibori)",
             "price": "￥600",
-            "description": null,
+            "description": "Beer bottle",
             "img": null
           },
           {
-            "name": "ノンアルコールビール（グリーンズフリー）",
+            "name": "Non-Alchol Beer (Green's Free)",
             "price": "￥440",
             "description": null,
             "img": null
           }
         ],
-        "ウィスキー": [
+        "Whiskey": [
           {
-            "name": "ハイボール",
+            "name": "highball",
             "price": "￥630",
-            "description": null,
+            "description": "A Whiskey mixed with soda.",
             "img": null
           }
         ],
-        "サワー": [
+        "Sour": [
           {
-            "name": "レモンサワー",
+            "name": "Lemon Sour",
             "price": "￥528",
             "description": null,
             "img": null
           },
           {
-            "name": "グレープフルーツサワー",
+            "name": "Grapefruit Sour",
             "price": "￥528",
             "description": null,
             "img": null
           },
           {
-            "name": "シークワーサーサワー",
+            "name": "Shikuwasa Sour",
             "price": "￥528",
             "description": null,
             "img": null
           }
         ],
-        "チューハイ": [
+        "Chuhai": [
           {
-            "name": "ウーロンハイ",
+            "name": "Oolong Hai",
             "price": "￥440",
-            "description": null,
+            "description": "Oolong tea hai.",
             "img": null
           },
           {
-            "name": "茶葉まるごとハイ",
+            "name": "Chaba Marugoto Hai",
             "price": "￥528",
-            "description": null,
+            "description": "Green tea hai.",
             "img": null
           }
         ],
-        "日本酒": [
+        "Sake": [
           {
-            "name": "月替わり冷酒",
+            "name": "Tsukigawari Reisake",
             "price": "￥1,760",
             "description": null,
             "img": null
           }
         ],
-        "ソフトドリンク": [
+        "Soft Drink": [
           {
-            "name": "ウーロン茶",
+            "name": "Oolong Tea",
             "price": "￥275",
             "description": null,
             "img": null
           },
           {
-            "name": "緑茶",
+            "name": "Green Tea",
             "price": "￥275",
             "description": null,
             "img": null
           },
           {
-            "name": "コーラ",
+            "name": "Coke",
             "price": "￥330",
             "description": null,
             "img": null
           },
           {
-            "name": "オレンジ",
+            "name": "Orage",
             "price": "￥330",
             "description": null,
             "img": null

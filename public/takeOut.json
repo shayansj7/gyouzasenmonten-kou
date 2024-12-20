@@ -1,0 +1,96 @@
+{
+    "takeOutItems": {
+      "焼き餃子": [
+        {
+          "name": "レンコン餃子 （ニンニク あり・なし）",
+          "price": "6個　￥495、12個　￥968、18個　￥1,408",
+          "description": "レンコンがシャキシャキで歯ごたえ抜群！種にも味があるので最初は何もつけず素材の味を楽しんでみて下さい。",
+          "img": "/images/menu/renkon-gyoza.jpg"
+        },
+        {
+            "name": "はたけの里芋餃子（6個）",
+            "price": "￥462",
+            "description": "所沢産の里芋がたっぷり。皮には小松菜が練り込まれてます。何もつけずにお召し上がりいただけます。",
+            "img": "/images/menu/hatakenosatoimo-gyoza.jpg"
+        },
+        {
+            "name": "プレミアム餃子 4個 （ニンニク あり・なし）",
+            "price": "￥550",
+            "description": "シャキシャキれんこん入り。手切り、手包みだからできる食べ応え抜群餃子。",
+            "img": "/images/menu/premium-gyoza.jpg"
+        }
+      ],
+      "冷凍餃子":[
+        {
+          "name": "レンコン餃子 （ニンニク あり・なし）",
+          "price": "12個　￥864、50個　￥3,456、100個　￥6,696",
+          "description": "レンコンがシャキシャキで歯ごたえ抜群！種にも味があるので最初は何もつけず素材の味を楽しんでみて下さい。",
+          "img": "/images/menu/renkon-gyoza.jpg"
+        },
+        {
+            "name": "はたけの里芋餃子（20個）",
+            "price": "￥1,300",
+            "description": "所沢産の里芋がたっぷり。皮には小松菜が練り込まれてます。何もつけずにお召し上がりいただけます。",
+            "img": "/images/menu/hatakenosatoimo-gyoza.jpg"
+        },
+        {
+            "name": "プレミアム餃子 12個 （ニンニク あり・なし）",
+            "price": "￥1,300",
+            "description": "シャキシャキれんこん入り。手切り、手包みだからできる食べ応え抜群餃子。",
+            "img": "/images/menu/premium-gyoza.jpg"
+        }
+      ],
+      "冷凍おかず (All ￥550)": [
+        {
+            "name": "レンコンのはさみ焼き",
+            "price": null,
+            "description": "生姜が効いた豚ひき肉と分厚く切ったレンコンの食感がいいアクセント！歯ごたえ最高の1品。お好みで柚子胡椒つけてお召し上がりください。",
+            "img": "/images/menu/renkon-no-hasamiyaki.jpg"
+        },
+        {
+            "name": "ヘルシー大葉 (6個)",
+            "price": null,
+            "description": "鶏肉やれんこん入り、さっぱり大葉で包んだヘルシーな1品。ポン酢がおすすめ。",
+            "img": null
+        },
+        {
+            "name": "ヘルシー大根 (6個)",
+            "price": null,
+            "description": "鶏肉やれんこん入り、さっぱり大根で包んだヘルシーな1品。ポン酢がおすすめ。",
+            "img": null
+        },
+        {
+            "name": "里芋コロッケ (6個)",
+            "price": null,
+            "description": null,
+            "img": "/images/menu/satoimo-korokke.jpg"
+        },
+        {
+            "name": "シュウマイ (6個)",
+            "price": null,
+            "description": null,
+            "img": null
+        },
+        {
+            "name": "春巻き (5本)",
+            "price": null,
+            "description": null,
+            "img": "/images/menu/paritto-harumaki.jpg"
+        },
+        {
+            "name": "大葉入りシュウマイ (5個)",
+            "price": null,
+            "description": null,
+            "img": null
+        }
+      ],
+      "販売日限定 生餃子": [
+        {
+          "name": "プレミアム餃子 (6個)",
+          "price": "￥648",
+          "description": "販売日は月には1～2回、インスタでお知らせしています！",
+          "img": null
+        }
+      ] 
+    }
+  }

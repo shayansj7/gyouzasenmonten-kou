@@ -5,12 +5,12 @@ export default function Location() {
     <Container className="my-5">
       <Row>
         <Col md={6}>
-          <h1>住所</h1>
+          <h1>Address</h1>
           <p>
-            住所 埼玉県所沢市緑町 1-17-5
+          1 Chome-17-5 Midoricho, Tokorozawa, Saitama 359-1111
           </p>
           <p>
-            🚃新所沢駅から徒歩3分🚶‍♀️
+            🚃3 minutes walking from Shintokorozawa Station🚶‍♀️
           </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d404.46831553925955!2d139.4534519!3d35.8061556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dfe38edef911%3A0x51dd6f6f6d026d1c!2z6aSDIGtvdQ!5e0!3m2!1sen!2sca!4v1733526140744!5m2!1sen!2sca"
@@ -23,9 +23,16 @@ export default function Location() {
           />
         </Col>
         <Col md={6}>
-          <h1>営業時間</h1>
-          <p>11:00～14:00,17:00〜22:00</p>
-          <p>営業 火、水曜定休</p>
+          <h1>Business hours</h1>
+          <h4>&#x3008;Lunch&#x3009;</h4>
+          <p>11:00～14:00</p>
+          <h4>&#x3008;Dinner&#x3009;</h4>
+          <p>17:00〜22:00</p>
+          <h1>Closed Day</h1>
+          <p> Tuesday, Wednesday</p>
+          <h1>Telephone Number</h1>
+          <p>04-2997-8118</p>
+
         </Col>
       </Row>
     </Container>
