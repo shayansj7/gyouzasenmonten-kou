@@ -60,7 +60,7 @@ export default function Layout({ children }) {
           <Navbar.Collapse id="basic-navbar-nav">
             <div className='nav-menu'>
               <div className="d-flex align-items-center gap-3" id='btn-link'>
-                <Link href="https://gyouzakou.stores.jp/" passHref>
+                <Link legacyBehavior href="https://gyouzakou.stores.jp/" passHref>
                   <a target="_blank" rel="noopener noreferrer">
                     <Button variant="danger">{isEnglish ? 'Order Online' : 'お取り寄せ'}</Button>
                   </a>
@@ -68,7 +68,7 @@ export default function Layout({ children }) {
                 <Link href={isEnglish ? '/' : '/en'} passHref>
                   <Button variant="light">{isEnglish ? '日本語' : 'English'}</Button>
                 </Link>
-                <Link href="https://www.instagram.com/gyouza_kou0501/" passHref>
+                <Link legacyBehavior href="https://www.instagram.com/gyouza_kou0501/" passHref>
                   <a target="_blank" rel="noopener noreferrer">
                     <FaInstagram style={{ color: 'white', fontSize: '36px' }} />
                   </a>
@@ -91,9 +91,11 @@ export default function Layout({ children }) {
       <footer className="bg-dark text-light py-4 mt-auto">
         <Container className="text-center">
           <p className="mb-2">📞<a href="tel:+81-04-29978118" className="text-light">04-29978118</a></p>
-          <p className="mb-0">
-            <a href="https://www.instagram.com/gyouza_kou0501/" target="_blank" rel="noopener noreferrer" className="text-light">@gyouza_kou0501</a>
-          </p>
+          <Link legacyBehavior href="https://www.instagram.com/gyouza_kou0501/" passHref>
+            <a target="_blank" rel="noopener noreferrer">
+              <FaInstagram style={{ color: 'white', fontSize: '36px' }} />
+            </a>
+          </Link>
         </Container>
       </footer>
     </>

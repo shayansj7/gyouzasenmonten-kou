@@ -1,9 +1,27 @@
-body {
+html,body {
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "游明朝体", "Yu Mincho", "MS PMincho", "MS Mincho", serif;
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
   background-color: #fce2b1;
 }
+
+.index-container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f6ecd9;
+}
+
+.frozen-gyoza{
+  background-color: #b9b6b1;
+}
+
+.frozen-title{
+  margin: auto;
+}
+
 
 h1, h2 {
   color: #333;
