@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import MenuCard from '@/components/MenuCard';
 
 export default function Menu() {
     const [takeOutItems, setTakeOutItems] = useState();
@@ -25,16 +26,7 @@ export default function Menu() {
                     <Row>
                         {items.map((item, index) => (
                             <Col sm={6} md={4} lg={3} className="mb-4" key={index}>
-                                <Card className="shadow-sm">
-                                    {item.img && <Card.Img variant="top" src={item.img} />}
-                                    <Card.Body>
-                                        <Card.Title>
-                                            <strong>{item.name}</strong>
-                                        </Card.Title>
-                                        {item.description && <Card.Text>{item.description}</Card.Text>}
-                                        {item.price && <Card.Text><strong>{item.price}</strong></Card.Text>}
-                                    </Card.Body>
-                                </Card>
+                                <MenuCard item={item} />
                             </Col>
                         ))}
                     </Row>
