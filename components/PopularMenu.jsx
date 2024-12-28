@@ -39,7 +39,7 @@ export default function PopularMenu() {
 
     return (
         <Container className="my-5">
-            <h1>{isEnglish ? "Popular Menu" : "人気のメニュー"}</h1>
+            <h1>{isEnglish ? "Popular Menu" : "人気メニュー"}</h1>
             <Row>
                 {popularMenu.map((item, index) => (
                     <Col sm={6} md={4} className="mb-4" key={index}>
