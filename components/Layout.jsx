@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button, Row, Col } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -78,7 +78,7 @@ export default function Layout({ children }) {
                 <Nav.Link as={Link} href={isEnglish ? '/en' : '/'} onClick={navLinkClicked}>{isEnglish ? 'Home' : 'ホーム'}</Nav.Link>
                 <Nav.Link as={Link} href={isEnglish ? '/en/menu' : '/menu'} onClick={navLinkClicked}>{isEnglish ? 'Menu' : 'メニュー'}</Nav.Link>
                 <Nav.Link as={Link} href={isEnglish ? '/en/takeOut' : '/takeOut'} onClick={navLinkClicked}>{isEnglish ? 'Take Out' : 'テイクアウト'}</Nav.Link>
-                <Nav.Link as={Link} href={isEnglish ? '/en/news' : '/news'} onClick={navLinkClicked}>{isEnglish ? 'Our Activities' : '活動内容'}</Nav.Link>
+                {/* <Nav.Link as={Link} href={isEnglish ? '/en/news' : '/news'} onClick={navLinkClicked}>{isEnglish ? 'Our Activities' : '活動内容'}</Nav.Link> */}
                 <Nav.Link as={Link} href={isEnglish ? '/en/location' : '/location'} onClick={navLinkClicked}>{isEnglish ? 'Location & Hours' : 'ロケーション & 営業時間'}</Nav.Link>
               </Nav>
             </div>
@@ -89,14 +89,35 @@ export default function Layout({ children }) {
       <main>{children}</main>
 
       <footer className="bg-dark text-light py-4 mt-auto">
-        <Container className="text-center">
-          <p className="mb-2">📞<a href="tel:+81-04-29978118" className="text-light">04-29978118</a></p>
-          <Link legacyBehavior href="https://www.instagram.com/gyouza_kou0501/" passHref>
-            <a target="_blank" rel="noopener noreferrer">
-              <FaInstagram style={{ color: 'white', fontSize: '36px' }} />
-            </a>
-          </Link>
+        <Container>
+          <Row>
+            <Col xs={12} md={4}>
+              <Container className="text-center">
+                <Image
+                  src={'/images/Logo.png'}
+                  width={120}
+                  height={120}
+                />
+              </Container>
+            </Col>
+            <Col xs={12} md={8}>
+              <Container className="text-center">
+              <p>{isEnglish? '1 Chome-17-5 Midoricho, Tokorozawa, Saitama 359-1111' : (<>〒359-1111<br/>埼玉県所沢市緑町 1-17-5</>)}</p>
+                <p className="mb-2">TEL: <a href="tel:+81-04-29978118" className="text-light">04-29978118</a></p>
+                <Link legacyBehavior href="https://www.instagram.com/gyouza_kou0501/" passHref>
+                  <a target="_blank" rel="noopener noreferrer">
+                    <FaInstagram style={{ color: 'white', fontSize: '36px' }} />
+                  </a>
+                </Link>
+              </Container>
+            </Col>
+          </Row>
         </Container>
+
+        <Container className="text-center">
+        <p>&copy; 2025 Gyoza Senmonten Kou</p>
+        </Container>
+
       </footer>
     </>
   );
