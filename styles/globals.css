@@ -116,3 +116,12 @@ footer a:hover {
 .top-footer{
   display: flex;
 }
+
+/* Menu */
+.menu-card {
+  height: 30rem;
+}
+
+.drink-card {
+  height: 10rem;
+}

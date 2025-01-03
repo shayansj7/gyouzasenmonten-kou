@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import MenuCard from '@/components/MenuCard';
+import DrinkCard from '@/components/DrinkCard';
 
 export default function Menu() {
     const [menuItems, setMenuItems] = useState();
@@ -28,7 +29,7 @@ export default function Menu() {
                                 <Row>
                                     {subItems.map((item, index) => (
                                         <Col sm={6} md={4} lg={3} className="mb-4" key={index}>
-                                            <MenuCard item={item} />
+                                            <DrinkCard item={item} />
                                         </Col>
                                     ))}
                                 </Row>

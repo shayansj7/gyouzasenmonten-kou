@@ -1,10 +1,9 @@
 import { Card } from "react-bootstrap";
 
-export default function MenuCard({item}) {
+export default function DrinkCard({item}) {
     return (
         <>
-            <Card className="menu-card shadow-sm">
-                {item.img ? <Card.Img variant="top" src={item.img} /> : <Card.Img variant="top" src='https://placehold.co/400x300' />}
+            <Card className="drink-card shadow-sm">
                 <Card.Body>
                     <Card.Title>
                         <strong>{item.name}</strong>
