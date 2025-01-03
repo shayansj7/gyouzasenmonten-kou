@@ -102,7 +102,8 @@ export default function Layout({ children }) {
             </Col>
             <Col xs={12} md={8}>
               <Container className="text-center">
-              <p>{isEnglish? '1 Chome-17-5 Midoricho, Tokorozawa, Saitama 359-1111' : (<>〒359-1111<br/>埼玉県所沢市緑町 1-17-5</>)}</p>
+                <br />
+                <p>{isEnglish ? '1 Chome-17-5 Midoricho, Tokorozawa, Saitama 359-1111' : (<>〒359-1111<br />埼玉県所沢市緑町 1-17-5</>)}</p>
                 <p className="mb-2">TEL: <a href="tel:+81-04-29978118" className="text-light">04-29978118</a></p>
                 <Link legacyBehavior href="https://www.instagram.com/gyouza_kou0501/" passHref>
                   <a target="_blank" rel="noopener noreferrer">
@@ -115,7 +116,9 @@ export default function Layout({ children }) {
         </Container>
 
         <Container className="text-center">
-        <p>&copy; 2025 Gyoza Senmonten Kou</p>
+          <br />
+          <p>&copy; 2025 Gyoza Senmonten Kou. All rights reserved.</p>
+          <p>Website designed by Shayan Shimura</p>
         </Container>
 
       </footer>
