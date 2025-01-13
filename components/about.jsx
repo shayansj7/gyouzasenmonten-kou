@@ -12,6 +12,8 @@ export function About() {
                 src="/images/gyoza-senmonten-kou.png"
                 alt="Gyoza-senmonten-kou"
                 className="img-fluid"
+                width={400}
+                height={300}
             />
             <h5>
                 {

@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import ControlledCarousel from '@/components/Carousels';
-import { About } from '@/components/About';
+import { About } from '@/components/about';
 import PopularMenu from '@/components/PopularMenu';
 
 export default function Home() {
