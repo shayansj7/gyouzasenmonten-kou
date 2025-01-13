@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export function About() {
 
@@ -7,7 +8,7 @@ export function About() {
 
     return (
         <>
-            <img
+            <Image
                 src="/images/gyoza-senmonten-kou.png"
                 alt="Gyoza-senmonten-kou"
                 className="img-fluid"

@@ -2,6 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ControlledCarousel from '@/components/Carousels';
 import { About } from '@/components/About';
 import PopularMenu from '@/components/PopularMenu';
+import News from '@/components/news';
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+      {/* <Container className='my-4'>
+        <News />
+      </Container> */}
     </>
   );
 }

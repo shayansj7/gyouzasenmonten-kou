@@ -9,36 +9,24 @@ export default function PopularMenu() {
     const router = useRouter();
     const isEnglish = router.pathname.startsWith('/en');
 
-    {!isEnglish ?
-        useEffect(() => {
-            fetch('/menu.json')
-                .then((res) => res.json())
-                .then((data) => {
-                    // Define specific items to display by their names (or other attributes)
-                    const specificItems = ['プレミアム餃子 4個 （ニンニク あり・なし）', 'はたけの里芋餃子（6個）', 'ヘルシー大葉・大根 (2個ずつ)'];
-                    const selectedItems = Object.values(data.menuItems)
-                        .flat() // Flatten all categories into one array
-                        .filter((item) => specificItems.includes(item.name)); // Filter by name
-                    setPopularMenu(selectedItems);
-                });
-        }, [])
-        :
-        useEffect(() => {
-            fetch('/menuen.json')
-                .then((res) => res.json())
-                .then((data) => {
-                    // Define specific items to display by their names (or other attributes)
-                    const specificItems = ['Premium Gyoza 4pcs (with or without garlic)', 'Hatake no Satoimo Gyoza(6pcs)', 'Healthy Oba・Daikon(2pcs each)'];
-                    const selectedItems = Object.values(data.menuItems)
-                        .flat() // Flatten all categories into one array
-                        .filter((item) => specificItems.includes(item.name)); // Filter by name
-                    setPopularMenu(selectedItems);
-                });
-        }, []);
-    }
+    useEffect(() => {
+        const menuFile = isEnglish ? '/menuen.json' : '/menu.json';
+        const specificItems = isEnglish 
+            ? ['Premium Gyoza 4pcs (with or without garlic)', 'Hatake no Satoimo Gyoza(6pcs)', 'Healthy Oba・Daikon(2pcs each)']
+            : ['プレミアム餃子 4個 （ニンニク あり・なし）', 'はたけの里芋餃子（6個）', 'ヘルシー大葉・大根 (2個ずつ)'];
+
+        fetch(menuFile)
+            .then((res) => res.json())
+            .then((data) => {
+                const selectedItems = Object.values(data.menuItems)
+                    .flat()
+                    .filter((item) => specificItems.includes(item.name));
+                setPopularMenu(selectedItems);
+            });
+    }, [isEnglish]);
 
     return (
-        <Container className="my-5">
+        <Container className="my-5 center-components">
             <h1>{isEnglish ? "Popular Menu" : "人気メニュー"}</h1>
             <Row>
                 {popularMenu.map((item, index) => (
