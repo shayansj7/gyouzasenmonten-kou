@@ -13,7 +13,7 @@ export default function Document() {
         <meta name="author" content="Shayan Shimura" />
         <meta
           name="keywords"
-          content="餃, 餃子, Kou, レストラン, 日本食, 餃子店, gyoza, restaurant, dumpling"
+          content="餃, 餃子, Kou, 餃子 Kou, レストラン, 日本食, 餃子店, gyoza, 餃子専門店, 手作り餃子, 所沢, 埼玉県, restaurant, dumpling"
         />
 
         {/* Open Graph Meta Tags for Social Media */}
