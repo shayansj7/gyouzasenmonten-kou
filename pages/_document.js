@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html lang="ja">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="icon" href="https://www.gyozasenmonten-kou.jp/favicon.ico" />
+        <link rel="apple-touch-icon" href="https://www.gyozasenmonten-kou.jp/favicon.ico" />
         {/* Global Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
