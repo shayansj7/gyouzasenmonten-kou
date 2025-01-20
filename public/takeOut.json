@@ -51,13 +51,13 @@
             "name": "ヘルシー大葉 (6個)",
             "price": null,
             "description": "鶏肉やれんこん入り、さっぱり大葉で包んだヘルシーな1品。ポン酢がおすすめ。",
-            "img": null
+            "img": "/images/menu/healthy-oba.jpg"
         },
         {
             "name": "ヘルシー大根 (6個)",
             "price": null,
             "description": "鶏肉やれんこん入り、さっぱり大根で包んだヘルシーな1品。ポン酢がおすすめ。",
-            "img": null
+            "img": "/images/menu/healthy-daikon.jpg"
         },
         {
             "name": "里芋コロッケ (6個)",
@@ -66,22 +66,22 @@
             "img": "/images/menu/satoimo-korokke.jpg"
         },
         {
-            "name": "シュウマイ (6個)",
+            "name": "シュウマイ プレーン (6個)",
             "price": null,
             "description": null,
-            "img": null
+            "img": "/images/menu/kou-honkino-shumai.jpg"
         },
         {
-            "name": "春巻き (5本)",
+            "name": "シュウマイ 大葉 (5個)",
             "price": null,
             "description": null,
-            "img": "/images/menu/paritto-harumaki.jpg"
+            "img": "/images/menu/kou-honkino-shumai.jpg"
         },
         {
-            "name": "大葉入りシュウマイ (5個)",
-            "price": null,
-            "description": null,
-            "img": null
+          "name": "春巻き (5本)",
+          "price": null,
+          "description": null,
+          "img": "/images/menu/paritto-harumaki.jpg"
         }
       ],
       "販売日限定 生餃子": [
@@ -89,7 +89,7 @@
           "name": "プレミアム餃子 (6個)",
           "price": "￥648",
           "description": "販売日は月には1～2回、インスタでお知らせしています！",
-          "img": null
+          "img": "/images/menu/premium-nama-gyoza.jpg"
         }
       ] 
     }

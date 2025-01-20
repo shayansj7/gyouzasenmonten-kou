@@ -51,13 +51,13 @@
             "name": "Healthy Oba (6pcs)",
             "price": null,
             "description": "A healthy dish with chicken and lotus root, wrapped in refreshing shiso leaves. Best enjoyed with ponzu sauce.",
-            "img": null
+            "img": "/images/menu/healthy-oba.jpg"
         },
         {
             "name": "Healthy Daikon (6pcs)",
             "price": null,
             "description": "A healthy dish with chicken and lotus root, wrapped in refreshing daikon. Best enjoyed with ponzu sauce.",
-            "img": null
+            "img": "/images/menu/healthy-daikon.jpg"
         },
         {
             "name": "Satoimo Korokke",
@@ -66,22 +66,22 @@
             "img": "/images/menu/satoimo-korokke.jpg"
         },
         {
-            "name": "Shumai (6pcs)",
+            "name": "Shumai Plain (6pcs)",
             "price": null,
             "description": null,
-            "img": null
+            "img": "/images/menu/kou-honkino-shumai.jpg"
+        },
+        {
+          "name": "Shumai Oba (5pcs)",
+          "price": null,
+          "description": "Shumai with shiso leaves",
+          "img": "/images/menu/kou-honkino-shumai.jpg"
         },
         {
             "name": "Harumaki (5pcs)",
             "price": null,
             "description": null,
             "img": "/images/menu/paritto-harumaki.jpg"
-        },
-        {
-            "name": "Oba Iri Shumai (5pcs)",
-            "price": null,
-            "description": "Shumai with shiso leaves",
-            "img": null
         }
       ],
       "Limited dates Offer: Raw Gyoza": [
@@ -89,7 +89,7 @@
           "name": "Premium Gyoza (6pcs)",
           "price": "￥648",
           "description": "The sale dates are announced 1–2 times a month on Instagram!",
-          "img": null
+          "img": "/images/menu/preminum-nama-gyoza.jpg"
         }
       ] 
     }

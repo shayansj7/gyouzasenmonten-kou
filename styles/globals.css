@@ -117,6 +117,14 @@ footer a:hover {
   display: flex;
 }
 
+/* Details */
+.details-desc {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  min-height: 100%;       /* Takes up the full height of its parent */
+}
+
 /* Menu */
 .menu-card {
   height: 30rem;
