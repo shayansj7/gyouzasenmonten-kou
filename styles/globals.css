@@ -158,3 +158,19 @@ footer a:hover {
 .important{
   color: red;
 }
+
+/* 404 page */
+.errorCode {
+  font-size: 6rem;
+  color: #343a40;
+}
+
+.errorMessage {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.errorDescription {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
