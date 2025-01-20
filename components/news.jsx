@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function News() {
   return (
     <>
-    
+
       <div className="center-components">
         <h1>お知らせ</h1>
         <h4>
