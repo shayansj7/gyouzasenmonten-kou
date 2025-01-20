@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ControlledCarousel from '@/components/Carousels';
 import { Details } from '@/components/Details';
 import PopularMenu from '@/components/PopularMenu';
-import News from '@/components/news';
+import News from '@/components/News';
 
 export default function Home() {
   return (
@@ -24,9 +24,9 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      {/* <Container className='my-4'>
+      <Container className='my-4'>
         <News />
-      </Container> */}
+      </Container>
     </>
   );
 }
