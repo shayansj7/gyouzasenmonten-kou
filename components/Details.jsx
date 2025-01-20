@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-export function About() {
+export function Details() {
 
     const router = useRouter();
     const isEnglish = router.pathname.startsWith('/en');

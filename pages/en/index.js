@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import ControlledCarousel from '@/components/Carousels';
-import { About } from '@/components/about';
+import { Details } from '@/components/Details';
 import PopularMenu from '@/components/PopularMenu';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
                 <Container className='my-4'>
                     <Row>
                         <Col>
-                            <About />
+                            <Details />
                         </Col>
                     </Row>
                 </Container>
