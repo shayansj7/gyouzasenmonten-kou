@@ -41,6 +41,7 @@ export default function Layout({ children }) {
                 src={'/images/Logo.png'}
                 width={120}
                 height={120}
+                alt='Logo'
               />
             </Navbar.Brand>
           </div>
@@ -97,6 +98,7 @@ export default function Layout({ children }) {
                   src={'/images/Logo.png'}
                   width={120}
                   height={120}
+                  alt='Logo'
                 />
               </Container>
             </Col>
