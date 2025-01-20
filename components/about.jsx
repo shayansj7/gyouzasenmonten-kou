@@ -10,7 +10,7 @@ export function About() {
         <>
             <Image
                 src="/images/gyoza-senmonten-kou.png"
-                alt="Gyoza-senmonten-kou"
+                alt="Gyoza-Senmonten-kou"
                 className="img-fluid"
                 width={400}
                 height={300}
